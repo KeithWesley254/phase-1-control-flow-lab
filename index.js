@@ -19,11 +19,11 @@ function ternaryCheckCity(city){
   return city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
 }
 
-function switchOnCharmFromTip(){
+function switchOnCharmFromTip(rada){
   // Write your code here!
-  let demtips="gratifications";
+  var demtips= "";
 
-    switch(demtips){
+    switch(rada){
     case 'generous':
       demtips='Thank you so much.';
       break;
@@ -34,5 +34,7 @@ function switchOnCharmFromTip(){
       demtips='Bye.';
       break;
   }
-  return demtips
+
+  return demtips;
 }
+console.log(switchOnCharmFromTip(rada))
